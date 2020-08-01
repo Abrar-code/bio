@@ -6,4 +6,22 @@ body {
 	background-attachment: fixed;
 	padding: 50px;
 	font-family: Georgia;
+	grid-template-columns: 300px auto;
+}
+
+h1 {
+	grid-row-start: 1;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	font-size: 48pt;
+}
+
+img {
+	grid-row-start: 2;
+	grid-column-start: 1;
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 10px;
+	box-shadow: -5px -3px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+	margin: 50px;
 }
