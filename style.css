@@ -14,6 +14,7 @@ h1 {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	font-size: 48pt;
+	color: #775dff;
 
 	background-image: linear-gradient(to top right, rgba(221,160,221, 0.1	) 0%, rgba(138,43,226, 0.3));
 	background-repeat: no-repeat;
