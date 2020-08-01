@@ -1,1 +1,9 @@
-
+body {
+	background: lightgrey;
+	background-image: url('background.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 50px;
+	font-family: Georgia;
+}
